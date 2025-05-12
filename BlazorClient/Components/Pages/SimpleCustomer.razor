@@ -1,0 +1,65 @@
+﻿@page "/simple-customer"
+@rendermode InteractiveServer
+@using BlazorClient.DTOs
+@using BlazorClient.Services
+@inject CustomerService customerService
+
+<h3>Registrar Cliente</h3>
+
+<div>
+    <div>
+        <label>Nombre:</label>
+        <input @bind="customerName" />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input @bind="customerEmail" />
+    </div>
+    <div>
+        <label>Dirección:</label>
+        <input @bind="customerAddress" />
+    </div>
+    <div>
+        <button @onclick="RegisterCustomer">Registrar</button>
+    </div>
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <div class="alert alert-info">@message</div>
+    }
+</div>
+
+@code {
+    private string customerName;
+    private string customerEmail;
+    private string customerAddress;
+    private string message;
+
+    private async Task RegisterCustomer()
+    {
+        if (string.IsNullOrEmpty(customerName) || string.IsNullOrEmpty(customerEmail) || string.IsNullOrEmpty(customerAddress))
+        {
+            message = "Por favor, complete todos los campos.";
+            return;
+        }
+
+        var customer = new CustomerDTO
+            {
+                Name = customerName,
+                Email = customerEmail,
+                Address = customerAddress
+            };
+
+        try
+        {
+            var newCustomer = await customerService.CreateCustomerAsync(customer);
+            message = $"¡Cliente registrado exitosamente! ID: {newCustomer.Id}";
+            customerName = "";
+            customerEmail = "";
+            customerAddress = "";
+        }
+        catch (Exception ex)
+        {
+            message = $"Error al registrar cliente: {ex.Message}";
+        }
+    }
+} 

@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "JoaquinProducts\\JoaquinProducts.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "JoaquinCustomer\\JoaquinCustomer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "JoaquinOrder\\JoaquinOrder.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BlazorClient\\BlazorClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

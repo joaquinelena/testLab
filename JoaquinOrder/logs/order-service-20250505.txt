@@ -1,0 +1,476 @@
+2025-05-05 05:38:14.260 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 05:38:14.349 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 05:38:14.403 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 05:38:14.404 -03:00 [INF] Hosting environment: Development
+2025-05-05 05:38:14.405 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 05:38:14.898 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger - null null
+2025-05-05 05:38:14.993 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger - 301 0 null 95.8753ms
+2025-05-05 05:38:15.001 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 05:38:15.040 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 39.5359ms
+2025-05-05 05:38:15.046 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-05 05:38:15.046 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui.css - null null
+2025-05-05 05:38:15.046 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 05:38:15.046 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-bundle.js - null null
+2025-05-05 05:38:15.054 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 8.2181ms
+2025-05-05 05:38:15.061 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-05 05:38:15.065 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui.css - 200 152034 text/css 18.8773ms
+2025-05-05 05:38:15.067 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-05 05:38:15.068 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 05:38:15.071 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 25.3139ms
+2025-05-05 05:38:15.082 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-05 05:38:15.083 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 37.6721ms
+2025-05-05 05:38:15.093 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.9738ms
+2025-05-05 05:38:15.167 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 05:38:15.172 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.3601ms
+2025-05-05 05:38:15.189 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/favicon-32x32.png - null null
+2025-05-05 05:38:15.191 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-05 05:38:15.192 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/favicon-32x32.png - 200 628 image/png 3.7265ms
+2025-05-05 05:49:43.949 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 05:49:44.050 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 05:49:44.090 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 05:49:44.091 -03:00 [INF] Hosting environment: Development
+2025-05-05 05:49:44.091 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 05:49:45.039 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 05:49:45.124 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 85.6184ms
+2025-05-05 05:49:45.148 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 05:49:45.148 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 05:49:45.152 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 4.6962ms
+2025-05-05 05:49:45.165 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.1678ms
+2025-05-05 05:49:45.220 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 05:49:45.226 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.4839ms
+2025-05-05 06:15:25.995 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/api/Orders - application/json 93
+2025-05-05 06:15:25.999 -03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-05 06:15:26.001 -03:00 [INF] Executing endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 06:15:26.014 -03:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[JoaquinOrder.Models.Order]] CreateOrder(JoaquinOrder.CQRS.Commands.CreateOrderCommand) on controller JoaquinOrder.Controllers.OrdersController (JoaquinOrder).
+2025-05-05 06:15:26.119 -03:00 [INF] Start processing HTTP request GET http://localhost:5001/api/Customers/5
+2025-05-05 06:15:26.122 -03:00 [INF] Sending HTTP request GET http://localhost:5001/api/Customers/5
+2025-05-05 06:15:26.280 -03:00 [INF] Received HTTP response headers after 156.4285ms - 200
+2025-05-05 06:15:26.281 -03:00 [INF] End processing HTTP request after 163.2077ms - 200
+2025-05-05 06:15:26.286 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/4
+2025-05-05 06:15:26.287 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/4
+2025-05-05 06:15:26.374 -03:00 [INF] Received HTTP response headers after 86.4834ms - 200
+2025-05-05 06:15:26.375 -03:00 [INF] End processing HTTP request after 88.6805ms - 200
+2025-05-05 06:15:26.379 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/4
+2025-05-05 06:15:26.379 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/4
+2025-05-05 06:15:26.385 -03:00 [INF] Received HTTP response headers after 5.0408ms - 200
+2025-05-05 06:15:26.385 -03:00 [INF] End processing HTTP request after 6.4644ms - 200
+2025-05-05 06:15:26.386 -03:00 [INF] Start processing HTTP request PUT http://localhost:5000/api/Products/4
+2025-05-05 06:15:26.387 -03:00 [INF] Sending HTTP request PUT http://localhost:5000/api/Products/4
+2025-05-05 06:15:26.403 -03:00 [INF] Received HTTP response headers after 15.3737ms - 200
+2025-05-05 06:15:26.403 -03:00 [INF] End processing HTTP request after 16.8931ms - 200
+2025-05-05 06:15:26.591 -03:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-05 06:15:26.591 -03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-05 06:15:26.592 -03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-05 06:15:26.920 -03:00 [INF] Executed DbCommand (25ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [OrderDate], [TotalAmount])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-05-05 06:15:26.938 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [OrderItems] ([OrderId], [ProductId], [ProductName], [Quantity], [Subtotal], [UnitPrice])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9);
+2025-05-05 06:15:26.950 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'JoaquinOrder.Models.Order'.
+2025-05-05 06:15:26.961 -03:00 [INF] Executed action JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder) in 944.2587ms
+2025-05-05 06:15:26.961 -03:00 [INF] Executed endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 06:15:26.964 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/api/Orders - 201 null application/json; charset=utf-8 968.9609ms
+2025-05-05 07:02:04.304 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/Orders - null null
+2025-05-05 07:02:04.307 -03:00 [INF] Executing endpoint 'JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder)'
+2025-05-05 07:02:04.310 -03:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[JoaquinOrder.Models.Order]]] GetOrders() on controller JoaquinOrder.Controllers.OrdersController (JoaquinOrder).
+2025-05-05 07:02:04.529 -03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[CustomerName], [o].[OrderDate], [o].[TotalAmount], [o0].[Id], [o0].[OrderId], [o0].[ProductId], [o0].[ProductName], [o0].[Quantity], [o0].[Subtotal], [o0].[UnitPrice]
+FROM [Orders] AS [o]
+LEFT JOIN [OrderItems] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2025-05-05 07:02:04.537 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[JoaquinOrder.Models.Order, JoaquinOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-05 07:02:04.538 -03:00 [INF] Executed action JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder) in 226.8117ms
+2025-05-05 07:02:04.539 -03:00 [INF] Executed endpoint 'JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder)'
+2025-05-05 07:02:04.539 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/api/Orders - 200 null application/json; charset=utf-8 235.216ms
+2025-05-05 07:18:26.575 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 07:18:26.662 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 07:18:26.703 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 07:18:26.704 -03:00 [INF] Hosting environment: Development
+2025-05-05 07:18:26.704 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 07:18:27.619 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger - null null
+2025-05-05 07:18:27.679 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger - 301 0 null 60.0757ms
+2025-05-05 07:18:27.682 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 07:18:27.718 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 35.633ms
+2025-05-05 07:18:27.720 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-bundle.js - null null
+2025-05-05 07:18:27.720 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui.css - null null
+2025-05-05 07:18:27.720 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 07:18:27.721 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-05 07:18:27.724 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 07:18:27.729 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 8.6051ms
+2025-05-05 07:18:27.748 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-05 07:18:27.748 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-05 07:18:27.748 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-05 07:18:27.749 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 28.9118ms
+2025-05-05 07:18:27.749 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui.css - 200 152034 text/css 28.8191ms
+2025-05-05 07:18:27.750 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 28.9298ms
+2025-05-05 07:18:27.755 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.5241ms
+2025-05-05 07:18:27.831 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 07:18:27.831 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/favicon-32x32.png - null null
+2025-05-05 07:18:27.833 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-05 07:18:27.834 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/favicon-32x32.png - 200 628 image/png 3.2197ms
+2025-05-05 07:18:27.836 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.6183ms
+2025-05-05 08:13:37.347 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 08:13:37.428 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 08:13:37.477 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 08:13:37.478 -03:00 [INF] Hosting environment: Development
+2025-05-05 08:13:37.479 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 08:13:38.146 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 08:13:38.259 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 113.8288ms
+2025-05-05 08:13:38.299 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 08:13:38.299 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 08:13:38.303 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 4.2318ms
+2025-05-05 08:13:38.317 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.5766ms
+2025-05-05 08:13:38.337 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 08:13:38.343 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.9343ms
+2025-05-05 08:13:51.808 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 08:13:51.888 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 08:13:51.928 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 08:13:51.929 -03:00 [INF] Hosting environment: Development
+2025-05-05 08:13:51.929 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 08:13:52.808 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 08:13:52.908 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 101.2455ms
+2025-05-05 08:13:52.948 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 08:13:52.948 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 08:13:52.951 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 3.8354ms
+2025-05-05 08:13:52.964 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.2898ms
+2025-05-05 08:13:52.984 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 08:13:52.990 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.4839ms
+2025-05-05 20:10:48.120 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 20:10:48.208 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 20:10:48.248 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 20:10:48.249 -03:00 [INF] Hosting environment: Development
+2025-05-05 20:10:48.249 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 20:10:49.091 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 20:10:49.207 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 117.56ms
+2025-05-05 20:10:49.209 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 20:10:49.213 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 20:10:49.216 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 2.7295ms
+2025-05-05 20:10:49.229 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.2907ms
+2025-05-05 20:10:49.299 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 20:10:49.305 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.5483ms
+2025-05-05 20:11:02.757 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 20:11:02.883 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 20:11:02.943 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 20:11:02.943 -03:00 [INF] Hosting environment: Development
+2025-05-05 20:11:02.944 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 20:11:03.623 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 20:11:03.717 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 94.4629ms
+2025-05-05 20:11:03.720 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 20:11:03.722 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 20:11:03.725 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 2.9676ms
+2025-05-05 20:11:03.737 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.2061ms
+2025-05-05 20:11:03.774 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 20:11:03.780 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.0091ms
+2025-05-05 20:11:48.964 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 20:11:49.046 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 20:11:49.089 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 20:11:49.090 -03:00 [INF] Hosting environment: Development
+2025-05-05 20:11:49.090 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 20:11:49.639 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 20:11:49.752 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 114.2594ms
+2025-05-05 20:11:49.797 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 20:11:49.797 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 20:11:49.800 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 3.6265ms
+2025-05-05 20:11:49.821 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.3142ms
+2025-05-05 20:11:49.841 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 20:11:49.846 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.6811ms
+2025-05-05 20:32:52.967 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 20:32:53.064 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 20:32:53.121 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 20:32:53.123 -03:00 [INF] Hosting environment: Development
+2025-05-05 20:32:53.126 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 20:32:53.637 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 20:32:53.762 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 125.9119ms
+2025-05-05 20:32:53.798 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 20:32:53.798 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 20:32:53.801 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 3.1145ms
+2025-05-05 20:32:53.814 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.9401ms
+2025-05-05 20:32:53.831 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 20:32:53.838 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.1637ms
+2025-05-05 20:35:44.109 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 20:35:44.242 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 20:35:44.298 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 20:35:44.299 -03:00 [INF] Hosting environment: Development
+2025-05-05 20:35:44.301 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 20:35:44.864 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 20:35:44.955 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 92.1621ms
+2025-05-05 20:35:44.995 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 20:35:44.995 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 20:35:44.999 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 4.553ms
+2025-05-05 20:35:45.011 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.839ms
+2025-05-05 20:35:45.036 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 20:35:45.044 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.7242ms
+2025-05-05 21:15:32.761 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 21:15:32.855 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 21:15:32.912 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 21:15:32.913 -03:00 [INF] Hosting environment: Development
+2025-05-05 21:15:32.914 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 21:15:33.464 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 21:15:33.593 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 130.1772ms
+2025-05-05 21:15:33.636 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 21:15:33.636 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 21:15:33.643 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 6.2189ms
+2025-05-05 21:15:33.657 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.455ms
+2025-05-05 21:15:33.688 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 21:15:33.695 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.096ms
+2025-05-05 21:15:49.520 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 21:15:49.622 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 21:15:49.669 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 21:15:49.670 -03:00 [INF] Hosting environment: Development
+2025-05-05 21:15:49.671 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 21:15:50.118 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 21:15:50.240 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 122.6482ms
+2025-05-05 21:15:50.284 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 21:15:50.284 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 21:15:50.289 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 4.8099ms
+2025-05-05 21:15:50.305 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.6157ms
+2025-05-05 21:15:50.332 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 21:15:50.342 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.0951ms
+2025-05-05 21:48:49.747 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 21:48:49.879 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 21:48:49.937 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 21:48:49.938 -03:00 [INF] Hosting environment: Development
+2025-05-05 21:48:49.938 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 21:48:50.249 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 21:48:50.365 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 116.3091ms
+2025-05-05 21:48:50.386 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 21:48:50.386 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 21:48:50.392 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 6.4363ms
+2025-05-05 21:48:50.407 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.8531ms
+2025-05-05 21:48:50.451 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 21:48:50.457 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.9963ms
+2025-05-05 21:49:22.170 -03:00 [INF] Starting JoaquinOrder microservice
+2025-05-05 21:49:22.255 -03:00 [INF] Now listening on: http://localhost:5002
+2025-05-05 21:49:22.297 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-05 21:49:22.297 -03:00 [INF] Hosting environment: Development
+2025-05-05 21:49:22.298 -03:00 [INF] Content root path: C:\Users\Joaquin\Desktop\LABORATORIO ISTEA\JoaquinParcialSolution\JoaquinOrder
+2025-05-05 21:49:22.829 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-05-05 21:49:22.942 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 115.0259ms
+2025-05-05 21:49:22.966 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-05 21:49:22.966 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-05-05 21:49:22.969 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 3.3593ms
+2025-05-05 21:49:22.987 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.1266ms
+2025-05-05 21:49:23.028 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-05-05 21:49:23.036 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.4837ms
+2025-05-05 21:50:34.714 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/api/Orders - application/json 93
+2025-05-05 21:50:34.719 -03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-05 21:50:34.721 -03:00 [INF] Executing endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 21:50:34.735 -03:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[JoaquinOrder.DTOs.OrderDTO]] CreateOrder(JoaquinOrder.DTOs.CreateOrderDTO) on controller JoaquinOrder.Controllers.OrdersController (JoaquinOrder).
+2025-05-05 21:50:34.856 -03:00 [INF] Start processing HTTP request GET http://localhost:5001/api/Customers/8
+2025-05-05 21:50:34.859 -03:00 [INF] Sending HTTP request GET http://localhost:5001/api/Customers/8
+2025-05-05 21:50:34.933 -03:00 [INF] Received HTTP response headers after 72.6861ms - 200
+2025-05-05 21:50:34.934 -03:00 [INF] End processing HTTP request after 79.4135ms - 200
+2025-05-05 21:50:34.939 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:50:34.940 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:50:35.014 -03:00 [INF] Received HTTP response headers after 73.5934ms - 200
+2025-05-05 21:50:35.015 -03:00 [INF] End processing HTTP request after 75.8506ms - 200
+2025-05-05 21:50:35.021 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:50:35.021 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:50:35.060 -03:00 [INF] Received HTTP response headers after 38.0528ms - 200
+2025-05-05 21:50:35.060 -03:00 [INF] End processing HTTP request after 39.8876ms - 200
+2025-05-05 21:50:35.062 -03:00 [INF] Start processing HTTP request PUT http://localhost:5000/api/Products/3
+2025-05-05 21:50:35.063 -03:00 [INF] Sending HTTP request PUT http://localhost:5000/api/Products/3
+2025-05-05 21:50:35.124 -03:00 [INF] Received HTTP response headers after 61.1ms - 200
+2025-05-05 21:50:35.125 -03:00 [INF] End processing HTTP request after 63.0945ms - 200
+2025-05-05 21:50:35.323 -03:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-05 21:50:35.324 -03:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-05 21:50:35.325 -03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-05 21:50:35.646 -03:00 [INF] Executed DbCommand (23ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [OrderDate], [TotalAmount])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-05-05 21:50:35.665 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [OrderItems] ([OrderId], [ProductId], [ProductName], [Quantity], [Subtotal], [UnitPrice])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9);
+2025-05-05 21:50:35.681 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'JoaquinOrder.DTOs.OrderDTO'.
+2025-05-05 21:50:35.692 -03:00 [INF] Executed action JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder) in 954.5077ms
+2025-05-05 21:50:35.693 -03:00 [INF] Executed endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 21:50:35.696 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/api/Orders - 201 null application/json; charset=utf-8 982.104ms
+2025-05-05 21:50:37.119 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/api/Orders - application/json 93
+2025-05-05 21:50:37.121 -03:00 [INF] Executing endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 21:50:37.121 -03:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[JoaquinOrder.DTOs.OrderDTO]] CreateOrder(JoaquinOrder.DTOs.CreateOrderDTO) on controller JoaquinOrder.Controllers.OrdersController (JoaquinOrder).
+2025-05-05 21:50:37.125 -03:00 [INF] Start processing HTTP request GET http://localhost:5001/api/Customers/8
+2025-05-05 21:50:37.125 -03:00 [INF] Sending HTTP request GET http://localhost:5001/api/Customers/8
+2025-05-05 21:50:37.165 -03:00 [INF] Received HTTP response headers after 38.6832ms - 200
+2025-05-05 21:50:37.165 -03:00 [INF] End processing HTTP request after 40.5907ms - 200
+2025-05-05 21:50:37.168 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:50:37.168 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:50:37.174 -03:00 [INF] Received HTTP response headers after 5.048ms - 200
+2025-05-05 21:50:37.174 -03:00 [INF] End processing HTTP request after 6.7015ms - 200
+2025-05-05 21:50:37.175 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:50:37.176 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:50:37.180 -03:00 [INF] Received HTTP response headers after 3.4966ms - 200
+2025-05-05 21:50:37.180 -03:00 [INF] End processing HTTP request after 5.0646ms - 200
+2025-05-05 21:50:37.181 -03:00 [INF] Start processing HTTP request PUT http://localhost:5000/api/Products/3
+2025-05-05 21:50:37.181 -03:00 [INF] Sending HTTP request PUT http://localhost:5000/api/Products/3
+2025-05-05 21:50:37.187 -03:00 [INF] Received HTTP response headers after 5.5362ms - 200
+2025-05-05 21:50:37.188 -03:00 [INF] End processing HTTP request after 7.0985ms - 200
+2025-05-05 21:50:37.221 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [OrderDate], [TotalAmount])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-05-05 21:50:37.223 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [OrderItems] ([OrderId], [ProductId], [ProductName], [Quantity], [Subtotal], [UnitPrice])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9);
+2025-05-05 21:50:37.225 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'JoaquinOrder.DTOs.OrderDTO'.
+2025-05-05 21:50:37.226 -03:00 [INF] Executed action JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder) in 103.2163ms
+2025-05-05 21:50:37.227 -03:00 [INF] Executed endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 21:50:37.227 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/api/Orders - 201 null application/json; charset=utf-8 108.7614ms
+2025-05-05 21:50:44.379 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/Orders - null null
+2025-05-05 21:50:44.380 -03:00 [INF] Executing endpoint 'JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder)'
+2025-05-05 21:50:44.383 -03:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[JoaquinOrder.DTOs.OrderDTO]]] GetOrders() on controller JoaquinOrder.Controllers.OrdersController (JoaquinOrder).
+2025-05-05 21:50:44.522 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[CustomerName], [o].[OrderDate], [o].[TotalAmount], [o0].[Id], [o0].[OrderId], [o0].[ProductId], [o0].[ProductName], [o0].[Quantity], [o0].[Subtotal], [o0].[UnitPrice]
+FROM [Orders] AS [o]
+LEFT JOIN [OrderItems] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2025-05-05 21:50:44.532 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[JoaquinOrder.DTOs.OrderDTO, JoaquinOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-05 21:50:44.534 -03:00 [INF] Executed action JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder) in 148.7705ms
+2025-05-05 21:50:44.534 -03:00 [INF] Executed endpoint 'JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder)'
+2025-05-05 21:50:44.535 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/api/Orders - 200 null application/json; charset=utf-8 156.0895ms
+2025-05-05 21:52:07.159 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/api/Orders - application/json 93
+2025-05-05 21:52:07.161 -03:00 [INF] Executing endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 21:52:07.161 -03:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[JoaquinOrder.DTOs.OrderDTO]] CreateOrder(JoaquinOrder.DTOs.CreateOrderDTO) on controller JoaquinOrder.Controllers.OrdersController (JoaquinOrder).
+2025-05-05 21:52:07.165 -03:00 [INF] Start processing HTTP request GET http://localhost:5001/api/Customers/8
+2025-05-05 21:52:07.165 -03:00 [INF] Sending HTTP request GET http://localhost:5001/api/Customers/8
+2025-05-05 21:52:07.176 -03:00 [INF] Received HTTP response headers after 9.5701ms - 200
+2025-05-05 21:52:07.176 -03:00 [INF] End processing HTTP request after 11.4685ms - 200
+2025-05-05 21:52:07.177 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:52:07.178 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:52:07.187 -03:00 [INF] Received HTTP response headers after 9.2113ms - 200
+2025-05-05 21:52:07.188 -03:00 [INF] End processing HTTP request after 10.9243ms - 200
+2025-05-05 21:52:07.189 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:52:07.189 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:52:07.195 -03:00 [INF] Received HTTP response headers after 5.6914ms - 200
+2025-05-05 21:52:07.196 -03:00 [INF] End processing HTTP request after 7.4407ms - 200
+2025-05-05 21:52:07.197 -03:00 [INF] Start processing HTTP request PUT http://localhost:5000/api/Products/3
+2025-05-05 21:52:07.198 -03:00 [INF] Sending HTTP request PUT http://localhost:5000/api/Products/3
+2025-05-05 21:52:07.203 -03:00 [INF] Received HTTP response headers after 4.8899ms - 200
+2025-05-05 21:52:07.204 -03:00 [INF] End processing HTTP request after 6.7123ms - 200
+2025-05-05 21:52:07.208 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [OrderDate], [TotalAmount])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-05-05 21:52:07.210 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [OrderItems] ([OrderId], [ProductId], [ProductName], [Quantity], [Subtotal], [UnitPrice])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9);
+2025-05-05 21:52:07.211 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'JoaquinOrder.DTOs.OrderDTO'.
+2025-05-05 21:52:07.212 -03:00 [INF] Executed action JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder) in 49.7845ms
+2025-05-05 21:52:07.213 -03:00 [INF] Executed endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 21:52:07.214 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/api/Orders - 201 null application/json; charset=utf-8 54.7579ms
+2025-05-05 21:52:20.158 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/Orders - null null
+2025-05-05 21:52:20.160 -03:00 [INF] Executing endpoint 'JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder)'
+2025-05-05 21:52:20.161 -03:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[JoaquinOrder.DTOs.OrderDTO]]] GetOrders() on controller JoaquinOrder.Controllers.OrdersController (JoaquinOrder).
+2025-05-05 21:52:20.167 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[CustomerName], [o].[OrderDate], [o].[TotalAmount], [o0].[Id], [o0].[OrderId], [o0].[ProductId], [o0].[ProductName], [o0].[Quantity], [o0].[Subtotal], [o0].[UnitPrice]
+FROM [Orders] AS [o]
+LEFT JOIN [OrderItems] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2025-05-05 21:52:20.169 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[JoaquinOrder.DTOs.OrderDTO, JoaquinOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-05 21:52:20.169 -03:00 [INF] Executed action JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder) in 7.4525ms
+2025-05-05 21:52:20.170 -03:00 [INF] Executed endpoint 'JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder)'
+2025-05-05 21:52:20.171 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/api/Orders - 200 null application/json; charset=utf-8 12.8211ms
+2025-05-05 21:53:05.572 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/api/Orders - application/json 93
+2025-05-05 21:53:05.577 -03:00 [INF] Executing endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 21:53:05.577 -03:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[JoaquinOrder.DTOs.OrderDTO]] CreateOrder(JoaquinOrder.DTOs.CreateOrderDTO) on controller JoaquinOrder.Controllers.OrdersController (JoaquinOrder).
+2025-05-05 21:53:05.579 -03:00 [INF] Start processing HTTP request GET http://localhost:5001/api/Customers/8
+2025-05-05 21:53:05.580 -03:00 [INF] Sending HTTP request GET http://localhost:5001/api/Customers/8
+2025-05-05 21:53:05.597 -03:00 [INF] Received HTTP response headers after 16.5852ms - 200
+2025-05-05 21:53:05.597 -03:00 [INF] End processing HTTP request after 18.2911ms - 200
+2025-05-05 21:53:05.598 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:53:05.599 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:53:05.614 -03:00 [INF] Received HTTP response headers after 14.95ms - 200
+2025-05-05 21:53:05.615 -03:00 [INF] End processing HTTP request after 16.8998ms - 200
+2025-05-05 21:53:05.616 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:53:05.616 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:53:05.624 -03:00 [INF] Received HTTP response headers after 6.6954ms - 200
+2025-05-05 21:53:05.624 -03:00 [INF] End processing HTTP request after 8.665ms - 200
+2025-05-05 21:53:05.625 -03:00 [INF] Start processing HTTP request PUT http://localhost:5000/api/Products/3
+2025-05-05 21:53:05.626 -03:00 [INF] Sending HTTP request PUT http://localhost:5000/api/Products/3
+2025-05-05 21:53:05.631 -03:00 [INF] Received HTTP response headers after 4.3667ms - 200
+2025-05-05 21:53:05.631 -03:00 [INF] End processing HTTP request after 6.1742ms - 200
+2025-05-05 21:53:05.635 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [OrderDate], [TotalAmount])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-05-05 21:53:05.637 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [OrderItems] ([OrderId], [ProductId], [ProductName], [Quantity], [Subtotal], [UnitPrice])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9);
+2025-05-05 21:53:05.639 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'JoaquinOrder.DTOs.OrderDTO'.
+2025-05-05 21:53:05.640 -03:00 [INF] Executed action JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder) in 61.81ms
+2025-05-05 21:53:05.641 -03:00 [INF] Executed endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 21:53:05.641 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/api/Orders - 201 null application/json; charset=utf-8 69.4434ms
+2025-05-05 21:53:07.748 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5002/api/Orders - application/json 93
+2025-05-05 21:53:07.750 -03:00 [INF] Executing endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 21:53:07.751 -03:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[JoaquinOrder.DTOs.OrderDTO]] CreateOrder(JoaquinOrder.DTOs.CreateOrderDTO) on controller JoaquinOrder.Controllers.OrdersController (JoaquinOrder).
+2025-05-05 21:53:07.753 -03:00 [INF] Start processing HTTP request GET http://localhost:5001/api/Customers/8
+2025-05-05 21:53:07.754 -03:00 [INF] Sending HTTP request GET http://localhost:5001/api/Customers/8
+2025-05-05 21:53:07.759 -03:00 [INF] Received HTTP response headers after 4.3544ms - 200
+2025-05-05 21:53:07.760 -03:00 [INF] End processing HTTP request after 6.3916ms - 200
+2025-05-05 21:53:07.760 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:53:07.761 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:53:07.765 -03:00 [INF] Received HTTP response headers after 4.1737ms - 200
+2025-05-05 21:53:07.766 -03:00 [INF] End processing HTTP request after 5.7048ms - 200
+2025-05-05 21:53:07.767 -03:00 [INF] Start processing HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:53:07.767 -03:00 [INF] Sending HTTP request GET http://localhost:5000/api/Products/3
+2025-05-05 21:53:07.771 -03:00 [INF] Received HTTP response headers after 3.0826ms - 200
+2025-05-05 21:53:07.771 -03:00 [INF] End processing HTTP request after 4.7502ms - 200
+2025-05-05 21:53:07.772 -03:00 [INF] Start processing HTTP request PUT http://localhost:5000/api/Products/3
+2025-05-05 21:53:07.773 -03:00 [INF] Sending HTTP request PUT http://localhost:5000/api/Products/3
+2025-05-05 21:53:07.777 -03:00 [INF] Received HTTP response headers after 3.7701ms - 200
+2025-05-05 21:53:07.777 -03:00 [INF] End processing HTTP request after 5.2938ms - 200
+2025-05-05 21:53:07.780 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [OrderDate], [TotalAmount])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-05-05 21:53:07.781 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [OrderItems] ([OrderId], [ProductId], [ProductName], [Quantity], [Subtotal], [UnitPrice])
+OUTPUT INSERTED.[Id]
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9);
+2025-05-05 21:53:07.783 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'JoaquinOrder.DTOs.OrderDTO'.
+2025-05-05 21:53:07.783 -03:00 [INF] Executed action JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder) in 30.9387ms
+2025-05-05 21:53:07.784 -03:00 [INF] Executed endpoint 'JoaquinOrder.Controllers.OrdersController.CreateOrder (JoaquinOrder)'
+2025-05-05 21:53:07.785 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5002/api/Orders - 201 null application/json; charset=utf-8 36.1263ms
+2025-05-05 21:53:11.595 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5002/api/Orders - null null
+2025-05-05 21:53:11.596 -03:00 [INF] Executing endpoint 'JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder)'
+2025-05-05 21:53:11.597 -03:00 [INF] Route matched with {action = "GetOrders", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[JoaquinOrder.DTOs.OrderDTO]]] GetOrders() on controller JoaquinOrder.Controllers.OrdersController (JoaquinOrder).
+2025-05-05 21:53:11.601 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[CustomerName], [o].[OrderDate], [o].[TotalAmount], [o0].[Id], [o0].[OrderId], [o0].[ProductId], [o0].[ProductName], [o0].[Quantity], [o0].[Subtotal], [o0].[UnitPrice]
+FROM [Orders] AS [o]
+LEFT JOIN [OrderItems] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2025-05-05 21:53:11.603 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[JoaquinOrder.DTOs.OrderDTO, JoaquinOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-05 21:53:11.604 -03:00 [INF] Executed action JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder) in 5.171ms
+2025-05-05 21:53:11.604 -03:00 [INF] Executed endpoint 'JoaquinOrder.Controllers.OrdersController.GetOrders (JoaquinOrder)'
+2025-05-05 21:53:11.605 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5002/api/Orders - 200 null application/json; charset=utf-8 10.0092ms

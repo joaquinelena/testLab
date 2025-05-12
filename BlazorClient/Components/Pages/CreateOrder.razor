@@ -1,0 +1,202 @@
+﻿@page "/create-order"
+@rendermode InteractiveServer
+@using BlazorClient.DTOs
+@using BlazorClient.Services
+@inject ProductService productService
+@inject CustomerService customerService
+@inject OrderService orderService
+@inject NavigationManager Navigation
+
+<h3>Crear Nueva Orden</h3>
+
+@if (loading)
+{
+    <p>Cargando...</p>
+}
+else if (message != null)
+{
+    <div class="alert alert-danger">@message</div>
+}
+else
+{
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label class="form-label">Cliente ID:</label>
+            <input type="number" class="form-control" @bind="customerId" />
+        </div>
+    </div>
+
+    <h4>Seleccionar Productos</h4>
+    @if (products != null && products.Count > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Cantidad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in products)
+                {
+                    <tr>
+                        <td>@product.Id</td>
+                        <td>@product.Name</td>
+                        <td>$@product.Price.ToString("F2")</td>
+                        <td>@product.Stock</td>
+                        <td>
+                            <input type="number" min="0" max="@product.Stock" class="form-control"
+                                   @bind="productQuantities[product.Id]" />
+                        </td>
+                        <td>
+                            <button class="btn btn-primary" @onclick="() => AddToOrder(product)">Agregar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    <h4>Orden Actual</h4>
+    @if (orderItems.Count > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Subtotal</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in orderItems)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>$@item.UnitPrice.ToString("F2")</td>
+                        <td>$@item.Subtotal.ToString("F2")</td>
+                        <td>
+                            <button class="btn btn-danger" @onclick="() => RemoveItem(item)">Eliminar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Total:</th>
+                    <th>$@GetTotal().ToString("F2")</th>
+                    <th></th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <button class="btn btn-success" @onclick="SubmitOrder">Crear Orden</button>
+    }
+}
+
+@code {
+    private bool loading = true;
+    private string message;
+    private int customerId;
+    private List<ProductDTO> products;
+    private List<OrderItemDTO> orderItems = new List<OrderItemDTO>();
+    private Dictionary<int, int> productQuantities = new Dictionary<int, int>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        try
+        {
+            products = await productService.GetProductsAsync();
+            foreach (var product in products)
+            {
+                productQuantities[product.Id] = 0;
+            }
+            loading = false;
+        }
+        catch (Exception ex)
+        {
+            message = $"Error al cargar productos: {ex.Message}";
+            loading = false;
+        }
+    }
+
+    private void AddToOrder(ProductDTO product)
+    {
+        var quantity = productQuantities[product.Id];
+        if (quantity > 0)
+        {
+            var existingItem = orderItems.FirstOrDefault(x => x.ProductId == product.Id);
+            if (existingItem != null)
+            {
+                existingItem.Quantity += quantity;
+                existingItem.Subtotal = existingItem.Quantity * existingItem.UnitPrice;
+            }
+            else
+            {
+                orderItems.Add(new OrderItemDTO
+                    {
+                        ProductId = product.Id,
+                        ProductName = product.Name,
+                        UnitPrice = product.Price,
+                        Quantity = quantity,
+                        Subtotal = product.Price * quantity
+                    });
+            }
+            productQuantities[product.Id] = 0;
+        }
+    }
+
+    private void RemoveItem(OrderItemDTO item)
+    {
+        orderItems.Remove(item);
+    }
+
+    private decimal GetTotal()
+    {
+        return orderItems.Sum(x => x.Subtotal);
+    }
+
+    private async Task SubmitOrder()
+    {
+        if (customerId <= 0)
+        {
+            message = "Por favor, ingrese un ID de cliente válido.";
+            return;
+        }
+
+        if (orderItems.Count == 0)
+        {
+            message = "Por favor, agregue productos a la orden.";
+            return;
+        }
+
+        var order = new OrderDTO
+            {
+                CustomerId = customerId,
+                Items = orderItems
+            };
+
+        try
+        {
+            await orderService.CreateOrderAsync(order);
+            message = "Orden creada exitosamente!";
+            Navigation.NavigateTo("/order-history");
+        }
+        catch (Exception ex)
+        {
+            message = $"Error al crear orden: {ex.Message}";
+        }
+    }
+}

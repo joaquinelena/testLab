@@ -1,0 +1,78 @@
+﻿@page "/products"
+@rendermode InteractiveServer
+@using BlazorClient.DTOs
+@using BlazorClient.Services
+@inject ProductService productService
+
+<h3>Listado de Productos</h3>
+
+@if (products == null)
+{
+    <p>Cargando...</p>
+}
+else if (products.Count == 0)
+{
+    <p>No hay productos disponibles.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Description</td>
+                    <td>$@product.Price.ToString("F2")</td>
+                    <td>@product.Stock</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => AddToCart(product)">Agregar al Carrito</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (message != null)
+{
+    <div class="alert alert-info">@message</div>
+}
+
+@code {
+    private List<ProductDTO> products;
+    private string message;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        try
+        {
+            products = await productService.GetProductsAsync();
+        }
+        catch (Exception ex)
+        {
+            message = $"Error al cargar productos: {ex.Message}";
+        }
+    }
+
+    private void AddToCart(ProductDTO product)
+    {
+        message = $"Producto '{product.Name}' agregado al carrito";
+    }
+}
